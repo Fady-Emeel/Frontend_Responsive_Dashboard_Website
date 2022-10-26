@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+    <title>Web_project</title>
+    <!-- ======= Styles ====== -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../1.3.0\css\line-awesome.min.css">
+    <link rel="stylesheet" href="../1.3.0\css\line-awesome.css">
+</head>
+
+<body>
+    <!-- =============== Navigation ================ -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="../../index.html">
+                        <span class="icon">
+                            <ion-icon class="lab la-accusoft"></ion-icon>
+                        </span>
+                        <h2><span class="title">Accusoft</span></h2>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../../index.html">
+                        <span class="icon">
+                            <ion-icon Class="las la-home"></ion-icon>
+                        </span>
+                        <span class="title">Home</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="Add.html">
+                        <span class="icon">
+                            <ion-icon class = "las la-user-plus"></ion-icon>
+                        </span>
+                        <span class="title">Add Employee</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="Edit.html">
+                        <span class="icon">
+                            <ion-icon class = "las la-edit"></ion-icon>
+                        </span>
+                        <span class="title">Edit</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="Search.html">
+                        <span class="icon">
+                            <ion-icon class = "las la-search"></ion-icon>
+                        </span>
+                        <span class="title">Search</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="vacation_request.html">
+                        <span class="icon">
+                            <ion-icon class = "las la-calendar"></ion-icon>
+                        </span>
+                        <span class="title">Vacation request</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- ========================= Main ==================== -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon class="las la-bars"></ion-icon>
+                </div>
+
+
+                <div class="user">
+                    <img src="../imgs/user.jpg" width="40px" height="40px" alt="">
+                    <div>
+                        <h4>Fady Emeel</h4>
+                        <small>HR Manager</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ======================= Cards ================== -->
+            <div class="cardBox">
+                <div class="card">
+                    <div>
+                        <div class="numbers">200</div>
+                        <div class="cardName">Employee</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon class="las la-users"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">20</div>
+                        <div class="cardName">In Vacation</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon class="las la-umbrella-beach"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">30</div>
+                        <div class="cardName">Vacation request</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon class="las la-scroll"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================ Recently Approved Vacations ================= -->
+            <div class="details">
+                <div class="container">
+                    <header>Edit</header>
+            
+                    <form action="#">
+                        <div class="form first">
+                            <div class="details personal">
+                                <span class="title">Personal Details</span>
+            
+                                <div class="fields">
+                                    <div class="input-field">
+                                        <label>Full Name</label>
+                                        <input type="text" placeholder="Enter your name" required>
+                                    </div>
+            
+                                    <div class="input-field">
+                                        <label>Date of Birth</label>
+                                        <input type="date" placeholder="Enter birth date" required>
+                                    </div>
+            
+                                    <div class="input-field">
+                                        <label>Email</label>
+                                        <input type="text" placeholder="Enter your email" required>
+                                    </div>
+            
+                                    <div class="input-field">
+                                        <label>Mobile Number</label>
+                                        <input type="number" placeholder="Enter mobile number" required>
+                                    </div>
+            
+                                    <div class="input-field">
+                                        <label>Gender</label>
+                                        <select required>
+                                            <option disabled selected>Select gender</option>
+                                            <option>Male</option>
+                                            <option>Female</option>
+                                        </select>
+                                    </div>
+            
+                                    <div class="input-field">
+                                        <label>Salary</label>
+                                        <input type="number" placeholder="Enter your salary" required>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="details vacation">
+                                <span class="title">Vacations</span>
+            
+                                <div class="fields">
+                                    <div class="input-field">
+                                        <label>Total number of days</label>
+                                        <input type="number" placeholder="Enter total days" required>
+                                    </div>
+
+                                    <div class="input-field">
+                                        <label>Number of days left</label>
+                                        <input type="number" placeholder="Enter days left" required>
+                                    </div>
+            
+                                    <div class="input-field">
+                                        <label>Number of days approved</label>
+                                        <input type="text" placeholder="Enter days approved" required>
+                                    </div>
+                                    
+                                    <div class="buttons">
+                                    <div class="backBtn">
+                                        <i class="uil uil-navigator"></i>
+                                        <span class="btnText">Delete</span>
+                                    </div>
+                                    
+                                    <button class="sumbit">
+                                        <span class="btnText">Submit</span>
+                                        <i class="uil uil-navigator"></i>
+                                    </button>
+                                    </div>
+                                </div> 
+                            </div> 
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =========== Scripts =========  -->
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>
